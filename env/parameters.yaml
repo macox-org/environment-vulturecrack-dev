@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:vulturecrack/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:vulturecrack/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:vulturecrack/prow:hmacToken
+segmentWriteKey: vault:vulturecrack:segmentWriteKey
